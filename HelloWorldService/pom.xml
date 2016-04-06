@@ -11,7 +11,7 @@
 	<groupId>com.anz.api</groupId>
         <artifactId>HelloWorldService</artifactId>
         <version>0.0.0.1-SNAPSHOT</version>
-        <packaging>pom</packaging>
+        <packaging>jar</packaging>
 
   <!-- <scm>
     <connection>scm:git:https://github.com/sanketsw/JsonJsonRestAPI.git</connection>
