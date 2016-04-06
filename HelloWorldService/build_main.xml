@@ -1,0 +1,25 @@
+<project name="IIB-CI-MAIN" basedir="..">
+  <description>IIB Continuous Integration(main script)</description>
+<property name="version" value="${bar.version}" />  
+    
+
+    <exec executable="mqsicreatebar">
+      <arg value="-data" />
+      <arg value="${basedir}" />
+      <arg value="-b" />
+      <arg value="${appname}/target/${appname}-${version}.bar" />
+      <arg value="-a" />
+      <arg value="${appname}" />
+      <arg value="-trace" />
+    </exec>
+
+<!-- <exec executable="mqsipackagebar">
+      <arg value="-w" />
+      <arg value="." />
+      <arg value="-a" />
+      <arg value="${appname}/target/${appname}-${version}.bar" />
+      <arg value="-k" />
+      <arg value="${appname}" />
+    </exec> 
+-->
+</project>
