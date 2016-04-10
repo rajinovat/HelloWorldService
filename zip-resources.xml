@@ -7,7 +7,7 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
         <fileSet>
-            <directory>${basedir}/target</directory>
+            <directory>${basedir}/${project.name}/target</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
                 <include>**/*.*</include>
