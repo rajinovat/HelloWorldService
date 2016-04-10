@@ -27,5 +27,29 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <dependency>
+                 <groupId>com.ibm.broker</groupId>
+                <artifactId>com.ibm.broker.plugin</artifactId>
+                         <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+    <groupId>com.ibm.broker</groupId>
+    <artifactId>com.ibm.broker.javacompute</artifactId>
+    <version>1.0.0</version>
+    </dependency>    
+    
+    	<dependency>
+			<groupId>com.anz.api</groupId>
+			<artifactId>HelloWorldTransformJava</artifactId>
+			<version>${project.version}</version>
+			<!--  <classifier>jar-with-dependencies</classifier>  -->
+		</dependency>
+		
   </dependencies>
+   
+  <build>
+   <sourceDirectory>com/</sourceDirectory>
+    </build>
 </project>
