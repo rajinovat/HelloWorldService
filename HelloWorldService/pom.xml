@@ -53,6 +53,7 @@
         </executions>
       </plugin>
 			<plugin>
+		  <groupId>org.apache.maven.plugins</groupId>	
 	 	<artifactId>maven-assembly-plugin</artifactId>
 	 		<configuration>
 					<appendAssemblyId>false</appendAssemblyId>
@@ -62,8 +63,8 @@
 				</configuration>
 				<executions>
 					<execution>
-						<id>make-assembly</id>
-						<phase>package</phase>
+						<id>make-dependency</id>
+	 				<phase>package</phase>
 						<goals>
 							<goal>single</goal>
 						</goals>
@@ -99,12 +100,11 @@
 		
             </executions>
            </plugin>
-    
-	 	<plugin>
-	
-				<artifactId>maven-assembly-plugin</artifactId>
+
+	 <plugin>
+			<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
-					<appendAssemblyId>true</appendAssemblyId>
+					<appendAssemblyId>false</appendAssemblyId>
 					<descriptors>
 						<descriptor>zip-resources.xml</descriptor>
 					</descriptors>
