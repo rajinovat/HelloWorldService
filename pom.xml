@@ -28,7 +28,7 @@
 				<configuration>
 					<appendAssemblyId>false</appendAssemblyId>
 					<descriptors>
-						<descriptor>zip-resources.xml</descriptor>
+						<descriptor>${basedir}/zip-resources.xml</descriptor>
 					</descriptors>
 				</configuration>
 				<executions>

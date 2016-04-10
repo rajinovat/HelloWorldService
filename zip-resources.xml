@@ -5,13 +5,16 @@
         <format>zip</format>
     </formats>
     <includeBaseDirectory>false</includeBaseDirectory>
-    <fileSets>
+ <fileSets>
         <fileSet>
-            <directory>${basedir}/${project.name}/target</directory>
+            <directory>${basedir}/</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
-                <include>**/*.*</include>
+                <include>**/*.bar</include>
              </includes>
         </fileSet>
     </fileSets>
+    
+
+     
 </assembly>

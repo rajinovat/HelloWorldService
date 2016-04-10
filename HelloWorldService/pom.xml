@@ -57,6 +57,7 @@
 	 	<artifactId>maven-assembly-plugin</artifactId>
 	 		<configuration>
 					<appendAssemblyId>false</appendAssemblyId>
+					<attach>false</attach>
 						<descriptorRefs>
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
