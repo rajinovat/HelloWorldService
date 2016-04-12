@@ -1,13 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-        <modelVersion>4.0.0</modelVersion>
+<modelVersion>4.0.0</modelVersion>
+
 <parent>
-  <groupId>com.anz</groupId>
-  <artifactId>root</artifactId>
+  <groupId>com.anz.api</groupId>
+  <artifactId>Parent</artifactId>
   <version>0.0.0.1-SNAPSHOT</version>
 </parent>
 
         <name>HelloWorld-Parent</name>
-        <groupId>com.anz.api</groupId>
+        <!--<groupId>com.anz.api</groupId> -->
         <artifactId>HelloWorld-Parent</artifactId>
         <version>0.0.0.1-SNAPSHOT</version>
         <packaging>pom</packaging>
