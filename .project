@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>HelloParent</name>
+	<name>HelloWorldParent</name>
 	<comment></comment>
 	<projects>
 		<project>HelloWorldService</project>

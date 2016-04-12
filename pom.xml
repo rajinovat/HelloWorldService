@@ -2,13 +2,13 @@
         <modelVersion>4.0.0</modelVersion>
 <parent>
   <groupId>com.anz</groupId>
-  <artifactId>anz-parent</artifactId>
-  <version>1.0.0</version>
+  <artifactId>root</artifactId>
+  <version>0.0.0.1-SNAPSHOT</version>
 </parent>
 
-        <name>HelloWorldService-Parent</name>
+        <name>HelloWorld-Parent</name>
         <groupId>com.anz.api</groupId>
-        <artifactId>HelloWorldService-Parent</artifactId>
+        <artifactId>HelloWorld-Parent</artifactId>
         <version>0.0.0.1-SNAPSHOT</version>
         <packaging>pom</packaging>
 <modules>
