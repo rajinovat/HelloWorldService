@@ -21,6 +21,11 @@
 	<delete failonerror="true" verbose="true">
 		<fileset dir="." includes="**/*.bar" />
 	</delete>
+	
+		<delete failonerror="true" verbose="true">
+		<fileset dir="." includes="**/*surefire*" />
+	</delete>
+	
 
 	<copydir src="." dest="/tmp/poms/${appname}.lock"  includes="**/pom.xml" />
 
