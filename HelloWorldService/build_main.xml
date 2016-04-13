@@ -2,7 +2,7 @@
 	<description>IIB Continuous Integration(main script)</description>
 	<property name="version" value="${bar.version}" />
 
-
+<!-- This exec task invokes MQSICREATEBAR IIB task -->
 	<exec executable="mqsicreatebar">
 		<arg value="-data" />
 		<arg value="${basedir}" />
