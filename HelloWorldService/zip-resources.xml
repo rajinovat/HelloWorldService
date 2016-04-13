@@ -8,9 +8,9 @@
     <fileSets>
         <fileSet>
             <directory>${basedir}/target</directory>
-            <outputDirectory>/</outputDirectory>
+            <outputDirectory>/HelloWorldService/target</outputDirectory>
             <includes>
-                <include>**/*.*</include>
+                <include>**/*.bar</include>
              </includes>
         </fileSet>
     </fileSets>
