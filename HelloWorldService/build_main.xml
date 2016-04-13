@@ -51,7 +51,7 @@
 		<arg value="-w" />
 		<arg value="." />
 		<arg value="-a" />
-		<arg value="${appname}/target/${appname}-${version}.bar" />
+		<arg value="target/${appname}-${version}.bar" />
 		<arg value="-k" />
 		<arg value="${appname}" />
 	</exec>
